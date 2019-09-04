@@ -181,7 +181,7 @@ class ProfileInfo extends StatelessWidget {
         style: TextStyle(color: Colors.orange),
       ),
       Text(
-        "Sophadeth\nRithya",
+        "Sophadeth\nRithya123",
         textScaleFactor: 5,
         style: TextStyle(
           color: Colors.white,
