@@ -193,7 +193,7 @@ class ProfileInfo extends StatelessWidget {
       Text(
         "A Google Developer Expert for Flutter, Dart & Web Tech.\n"
         "I am also a youtuber having MTechViral youtube channel\n"
-        "where I make tutorials for technology.",
+        "where I make tutorials for technology!!!!",
         softWrap: true,
         textScaleFactor: 1.5,
         style: TextStyle(color: Colors.white70),
