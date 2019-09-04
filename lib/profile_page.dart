@@ -102,7 +102,7 @@ class PKDot extends StatelessWidget {
     return Row(
       children: <Widget>[
         Text(
-          "PK MTECHVIRAL",
+          "Sophadeth Rithya",
           textScaleFactor: 2,
           style: TextStyle(
             fontWeight: FontWeight.bold,
@@ -180,7 +180,7 @@ class ProfileInfo extends StatelessWidget {
         style: TextStyle(color: Colors.orange),
       ),
       Text(
-        "Pawan\nKumar",
+        "Sophadeth\nRithya",
         textScaleFactor: 5,
         style: TextStyle(
           color: Colors.white,
