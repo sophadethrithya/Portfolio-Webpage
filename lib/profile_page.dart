@@ -30,6 +30,7 @@ class ProfilePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ResponsiveWidget(
+
       largeScreen: Scaffold(
         backgroundColor: Colors.black,
         appBar: AppBar(

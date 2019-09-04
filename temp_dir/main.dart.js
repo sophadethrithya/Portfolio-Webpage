@@ -43858,7 +43858,7 @@ if(u<800){u=F.bA(a,!1).a.b
 if(typeof u!=="number")return u.p()
 u*=0.25}else{u=F.bA(a,!1).a.a
 if(typeof u!=="number")return u.p()
-u*=0.25}return M.kg(t,t,t,t,S.iO(C.el,t,t,t,C.oE,t,new X.my(new L.pU("pk.jpg"),C.eo,C.aq),C.ah),t,s,t,t,t,u)},
+u*=0.25}return M.kg(t,t,t,t,S.iO(C.el,t,t,t,C.oE,t,new X.my(new L.pU("sophadeth.jpg"),C.eo,C.aq),C.ah),t,s,t,t,t,u)},
 R:function(a){var u=this.c,t=[N.ah],s=T.lb(H.f([this.yh(a),u],t),C.ak,C.du,C.a3),r=this.yh(a),q=F.bA(a,!1).a.b
 if(typeof q!=="number")return q.p()
 return B.td(s,T.yp(H.f([r,new T.d1(null,q*0.1,null,null),u],t),C.ak,C.c5,C.a3))}}
