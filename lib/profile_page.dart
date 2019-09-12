@@ -161,7 +161,7 @@ class ProfileInfo extends StatelessWidget {
             : MediaQuery.of(context).size.width * 0.25,
         decoration: BoxDecoration(
           backgroundBlendMode: BlendMode.luminosity,
-//          color: Colors.deepOrange,
+          color: Colors.deepOrange,
 //            borderRadius: BorderRadius.circular(40),
           shape: BoxShape.circle,
           image: DecorationImage(
@@ -181,7 +181,7 @@ class ProfileInfo extends StatelessWidget {
         style: TextStyle(color: Colors.orange),
       ),
       Text(
-        "Sophadeth\nRithya123",
+        "Sophadeth\nRithya1234",
         textScaleFactor: 5,
         style: TextStyle(
           color: Colors.white,
