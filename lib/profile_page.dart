@@ -85,7 +85,7 @@ class NavHeader extends StatelessWidget {
             : MainAxisAlignment.spaceBetween,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
-          PKDot(),
+          NameTitle(),
 //          Spacer(),
           if (!ResponsiveWidget.isSmallScreen(context))
             Row(
@@ -97,7 +97,7 @@ class NavHeader extends StatelessWidget {
   }
 }
 
-class PKDot extends StatelessWidget {
+class NameTitle extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
