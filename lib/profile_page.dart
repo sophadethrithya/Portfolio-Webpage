@@ -103,7 +103,7 @@ class PKDot extends StatelessWidget {
     return Row(
       children: <Widget>[
         Text(
-          "Sophadeth Rithya123",
+          "Sophadeth Rithya",
           textScaleFactor: 2,
           style: TextStyle(
             fontWeight: FontWeight.bold,
@@ -160,8 +160,8 @@ class ProfileInfo extends StatelessWidget {
             ? MediaQuery.of(context).size.height * 0.25
             : MediaQuery.of(context).size.width * 0.25,
         decoration: BoxDecoration(
-          backgroundBlendMode: BlendMode.luminosity,
-          color: Colors.deepOrange,
+//          backgroundBlendMode: BlendMode.luminosity,
+//          color: Colors.deepOrange,
 //            borderRadius: BorderRadius.circular(40),
           shape: BoxShape.circle,
           image: DecorationImage(
@@ -181,7 +181,7 @@ class ProfileInfo extends StatelessWidget {
         style: TextStyle(color: Colors.orange),
       ),
       Text(
-        "Sophadeth\nRithya1234",
+        "Sophadeth\nRithya",
         textScaleFactor: 5,
         style: TextStyle(
           color: Colors.white,
@@ -192,9 +192,11 @@ class ProfileInfo extends StatelessWidget {
         height: 10,
       ),
       Text(
-        "A Google Developer Expert for Flutter, Dart & Web Tech.\n"
-        "I am also a youtuber having MTechViral youtube channel\n"
-        "where I make tutorials for technology!!!!",
+        "Senior Computer Science student at Cal Poly Pomona.\n"
+        "I love to build application to solve problems\n"
+        "Life's Motto: Shoot for the Moon.\n"
+            "Even if you miss, you'll land among the star.\n"
+            "- Les Brown",
         softWrap: true,
         textScaleFactor: 1.5,
         style: TextStyle(color: Colors.white70),
@@ -304,7 +306,7 @@ class SocialInfo extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.start,
             children: socialMediaWidgets(),
           ),
-          copyRightText(),
+//          copyRightText(),
         ],
       ),
       smallScreen: Column(
