@@ -102,6 +102,15 @@ class PKDot extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: <Widget>[
+        AnimatedContainer(
+          duration: Duration(seconds: 1),
+          height: 8,
+          width: 8,
+          decoration: BoxDecoration(
+            shape: BoxShape.circle,
+            color: Colors.orange,
+          ),
+        ),
         Text(
           "Sophadeth Rithya",
           textScaleFactor: 2,
