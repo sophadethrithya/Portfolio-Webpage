@@ -103,7 +103,7 @@ class PKDot extends StatelessWidget {
     return Row(
       children: <Widget>[
         Text(
-          "Sophadeth Rithya123",
+          "Sophadeth Rithya",
           textScaleFactor: 2,
           style: TextStyle(
             fontWeight: FontWeight.bold,
@@ -181,7 +181,7 @@ class ProfileInfo extends StatelessWidget {
         style: TextStyle(color: Colors.orange),
       ),
       Text(
-        "Sophadeth\nRithya1234",
+        "Sophadeth\nRithya",
         textScaleFactor: 5,
         style: TextStyle(
           color: Colors.white,
@@ -192,9 +192,9 @@ class ProfileInfo extends StatelessWidget {
         height: 10,
       ),
       Text(
-        "A Google Developer Expert for Flutter, Dart & Web Tech.\n"
-        "I am also a youtuber having MTechViral youtube channel\n"
-        "where I make tutorials for technology!!!!",
+        "Senior Computer Science student at Cal Poly Pomona.\n"
+        "I love to build application to solve problems!\n"
+        "Life Motto: Shoot for the 🌕Moon. Even if you miss, you'll land among the stars⭐️- Les Brown",
         softWrap: true,
         textScaleFactor: 1.5,
         style: TextStyle(color: Colors.white70),
