@@ -33,10 +33,10 @@ class ProfilePage extends StatelessWidget {
 
       largeScreen: Scaffold(
         backgroundColor: Colors.black,
-        appBar: AppBar(
-          elevation: 0.0,
-          backgroundColor: Colors.black,
-        ),
+//        appBar: AppBar(
+//          elevation: 0.0,
+//          backgroundColor: Colors.blue,
+//        ),
         drawer: ResponsiveWidget.isSmallScreen(context)
             ? Drawer(
                 child: ListView(
