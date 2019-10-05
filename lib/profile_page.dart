@@ -160,8 +160,8 @@ class ProfileInfo extends StatelessWidget {
             ? MediaQuery.of(context).size.height * 0.25
             : MediaQuery.of(context).size.width * 0.25,
         decoration: BoxDecoration(
-          backgroundBlendMode: BlendMode.luminosity,
-          color: Colors.deepOrange,
+//          backgroundBlendMode: BlendMode.luminosity,
+//          color: Colors.deepOrange,
 //            borderRadius: BorderRadius.circular(40),
           shape: BoxShape.circle,
           image: DecorationImage(
@@ -194,7 +194,9 @@ class ProfileInfo extends StatelessWidget {
       Text(
         "Senior Computer Science student at Cal Poly Pomona.\n"
         "I love to build application to solve problems!\n"
-        "Life Motto: Shoot for the 🌕Moon. Even if you miss, you'll land among the stars⭐️- Les Brown",
+        "Life Motto: \n"
+            "Shoot for the 🌕Moon. Even if you miss, you'll land among the stars⭐\n"
+            "️- Les Brown",
         softWrap: true,
         textScaleFactor: 1.5,
         style: TextStyle(color: Colors.white70),
@@ -304,7 +306,7 @@ class SocialInfo extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.start,
             children: socialMediaWidgets(),
           ),
-          copyRightText(),
+//          copyRightText(),
         ],
       ),
       smallScreen: Column(
