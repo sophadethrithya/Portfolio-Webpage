@@ -8,21 +8,21 @@ class ProfilePage extends StatelessWidget {
 
   List<Widget> navButtons() => [
         NavButton(
-          text: "about",
+          text: "About",
           onPressed: () {
-            html.window.open("https://pawan.live", "Pk");
+            html.window.open("https://sophadethrithya.github.io/portfolio/#/","about");
           },
         ),
         NavButton(
-          text: "work",
+          text: "Project",
           onPressed: () {
-            html.window.open("https://pawan.live", "Pk");
+            html.window.open("https://sophadethrithya.github.io/portfolio/#/", "Project");
           },
         ),
         NavButton(
-          text: "contact",
+          text: "Contact",
           onPressed: () {
-            html.window.open("https://pawan.live", "Pk");
+            html.window.open("https://sophadethrithya.github.io/portfolio/#/", "Contact");
           },
         ),
       ];
@@ -213,8 +213,8 @@ class ProfileInfo extends StatelessWidget {
             color: Colors.red,
             onPressed: () {
               html.window.open(
-                  "https://google-developers.appspot.com/community/experts/directory/profile/profile-pawan_kumar",
-                  "GDE");
+                  "https://drive.google.com/file/d/1phAbwdGiP6RZYSyilna_aDdTQ4rLCiyb/view?usp=sharing",
+                  "Resume");
             },
             padding: EdgeInsets.all(10),
           ),
@@ -229,7 +229,7 @@ class ProfileInfo extends StatelessWidget {
             child: Text("Say Hi!"),
             color: Colors.red,
             onPressed: () {
-              html.window.open("https://pawan.live", "Pk");
+              html.window.open("https://sophadethrithya.github.io/portfolio/#/", "Hi");
             },
             padding: EdgeInsets.all(10),
           )
@@ -267,34 +267,20 @@ class SocialInfo extends StatelessWidget {
       NavButton(
         text: "Github",
         onPressed: () {
-          html.window.open("https://github.com/iampawan", "Git");
+          html.window.open("https://github.com/sophadethrithya", "Git");
         },
         color: Colors.blue,
       ),
       NavButton(
-        text: "Twitter",
+        text: "LinkedIn",
         onPressed: () {
-          html.window.open("https://twitter.com/imthepk", "Twitter");
-        },
-        color: Colors.blue,
-      ),
-      NavButton(
-        text: "Facebook",
-        onPressed: () {
-          html.window.open("https://facebook.com/thepawankumaar", "Fb");
+          html.window.open("https://www.linkedin.com/in/sophadethrithya/", "LinkedIn");
         },
         color: Colors.blue,
       ),
     ];
   }
 
-  Widget copyRightText() => Text(
-        "Pawan Kumar ©️2019",
-        textAlign: TextAlign.center,
-        style: TextStyle(
-          color: Colors.grey,
-        ),
-      );
 
   @override
   Widget build(BuildContext context) {
@@ -306,14 +292,12 @@ class SocialInfo extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.start,
             children: socialMediaWidgets(),
           ),
-//          copyRightText(),
         ],
       ),
       smallScreen: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
           ...socialMediaWidgets(),
-          copyRightText(),
         ],
       ),
     );
